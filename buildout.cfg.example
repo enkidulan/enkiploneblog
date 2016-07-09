@@ -1,0 +1,9 @@
+[buildout]
+extends =
+#     profiles/production.cfg
+#     profiles/staging.cfg
+#     profiles/devel.cfg
+
+[instance]
+user = admin:admin
+http-address = 8080
